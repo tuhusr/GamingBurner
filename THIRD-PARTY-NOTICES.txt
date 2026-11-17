@@ -1,0 +1,27 @@
+GamingBurner includes the following third-party software. Each remains under its own licence.
+
+Intel PresentMon 2.3.1 (Engine\PresentMon-2.3.1-x64.exe)
+  Licence: MIT. Full text in Engine\LICENSE-PresentMon.txt.
+  Source: https://github.com/GameTechDev/PresentMon
+
+LibreHardwareMonitorLib 0.9.6
+  Licence: Mozilla Public License 2.0 (https://www.mozilla.org/MPL/2.0/)
+  Source: https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+
+RAMSPDToolkit-NDD 1.4.2, DiskInfoToolkit 1.1.2, BlackSharp.Core 1.0.7
+  Licence: Mozilla Public License 2.0 (https://www.mozilla.org/MPL/2.0/)
+  Source: https://github.com/Blacktempel
+
+HidSharp 2.6.4
+  Copyright 2010-2025 James F. Bellinger
+  Licence: Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+  Source: https://software.seekye.com/hidsharp
+
+Velopack 1.2.161 (installer and updates)
+  Licence: MIT
+  Source: https://github.com/velopack/velopack
+
+.NET runtime and libraries (System.Management, System.IO.Ports, System.CodeDom, System.Threading.AccessControl and others)
+  Copyright (c) .NET Foundation and Contributors
+  Licence: MIT
+  Source: https://github.com/dotnet/runtime

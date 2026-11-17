@@ -1,0 +1,13 @@
+# Build output
+bin/
+obj/
+app/
+app-b/
+publish/
+Releases/
+*.user
+
+# Personal files that stay on this PC
+Logs/
+settings.json
+*.lnk

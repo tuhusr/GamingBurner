@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>GamingBurner</AssemblyName>
+    <ApplicationIcon>Assets\GamingBurner.ico</ApplicationIcon>
+    <Product>GamingBurner</Product>
+    <AssemblyTitle>GamingBurner</AssemblyTitle>
+    <Version>1.0.0</Version>
+    <Authors>tuhusr</Authors>
+    <Description>Frame rate, latency and hardware monitor for PC games.</Description>
+    <RootNamespace>GamingBurner</RootNamespace>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <TieredPGO>true</TieredPGO>
+    <ServerGarbageCollector>false</ServerGarbageCollector>
+    <ConcurrentGarbageCollection>true</ConcurrentGarbageCollection>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="LibreHardwareMonitorLib" Version="0.9.6" />
+    <PackageReference Include="Velopack" Version="1.2.161" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Shipped beside the app: the latency engine with its licence, and the third-party notices. -->
+    <None Include="Engine\**" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="THIRD-PARTY-NOTICES.txt" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\GamingBurner.ico" />
+    <Resource Include="Assets\GamingBurner-256.png" />
+  </ItemGroup>
+</Project>
